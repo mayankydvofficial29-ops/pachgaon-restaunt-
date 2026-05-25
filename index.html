@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panchgaon – Proudly Desi</title>
+  <meta name="description" content="Panchgaon Restaurant – A unique highway dining experience in the foothills of Aravali, Manesar. Proudly Desi." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="logo">
+      PANCHGAON
+      <span>Proudly Desi</span>
+    </div>
+    <div class="nav-links">
+      <a onclick="showPage('home')"   class="active" id="nav-home">Home</a>
+      <a onclick="showPage('menu')"            id="nav-menu">Menu</a>
+      <a onclick="showPage('about')"           id="nav-about">About</a>
+      <a onclick="showPage('contact')"         id="nav-contact">Contact</a>
+    </div>
+    <button class="nav-cta" onclick="showPage('contact')">Reserve a Table</button>
+  </nav>
+
+  <!-- ═══════════ HOME PAGE ═══════════ -->
+  <div id="page-home" class="section-page active">
+
+    <section class="hero">
+      <p class="hero-tag">Highway Dining · Manesar · Haryana</p>
+      <h1>Welcome to<br><span>Panchgaon</span></h1>
+      <p class="hero-sub">Proudly Desi</p>
+      <p class="hero-desc">A truly unique highway dining experience — high-quality food, luxurious facilities, magical ambience, and very affordable prices. Deeply rooted in true Indian ethos and age-old desi traditions.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="showPage('menu')">Discover Our Menu</button>
+        <button class="btn-outline" onclick="showPage('about')">Our Story</button>
+      </div>
+    </section>
+
+    <section class="page-section reviews-section">
+      <p class="section-label">What guests say</p>
+      <h2 class="section-title">People love it here</h2>
+      <div class="reviews-grid">
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Yummy food. Awesome ambience. Quick service and don't forget to try kullad chai."</p>
+          <div class="review-author">Asthana Sarna</div>
+          <div class="review-source">on Zomato</div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"It's really desi... awesome place for outing. Perfect place for taking pictures. Yummy food."</p>
+          <div class="review-author">Rekha Rajawat</div>
+          <div class="review-source">on Facebook</div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"The best place to have nice food and chill — must visit with family, friends, or couples."</p>
+          <div class="review-author">Abhaya Gupta</div>
+          <div class="review-source">on TripAdvisor</div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══════════ MENU PAGE ═══════════ -->
+  <div id="page-menu" class="section-page">
+    <div class="page-section">
+      <p class="section-label">Our Menu</p>
+      <h2 class="section-title">Desi flavours, wide variety</h2>
+      <p class="section-sub">From corners of India and the globe — all under one roof</p>
+
+      <div class="menu-cat">
+        <div class="menu-cat-title">Desi Beverages</div>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-icon">☕</div>
+            <h3>Kullad Chai</h3>
+            <p>Traditional clay pot tea, our signature</p>
+          </div>
+          <div class="menu-card">
+            <div class="menu-icon">🥛</div>
+            <h3>Lassi</h3>
+            <p>Sweet, salted or flavoured, thick & chilled</p>
+          </div>
+          <div class="menu-card">
+            <div class="menu-icon">🍹</div>
+            <h3>Sharbat</h3>
+            <p>Fresh seasonal coolers, Indian style</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-cat">
+        <div class="menu-cat-title">Main Course</div>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-icon">🍲</div>
+            <h3>Dal Makhani</h3>
+            <p>Slow-cooked black lentils, rich & creamy</p>
+          </div>
+          <div class="menu-card">
+            <div class="menu-icon">🫓</div>
+            <h3>Tandoori Roti</h3>
+            <p>Fresh from the clay tandoor</p>
+          </div>
+          <div class="menu-card">
+            <div class="menu-icon">🍗</div>
+            <h3>Butter Chicken</h3>
+            <p>Classic Punjabi curry, velvety tomato gravy</p>
+          </div>
+          <div class="menu-card">
+            <div class="menu-icon">🧀</div>
+            <h3>Paneer Tikka</h3>
+            <p>Marinated cottage cheese, chargrilled</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-cat">
+        <div class="menu-cat-title">Sweets & Desserts</div>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-icon">🍮</div>
+            <h3>Gulab Jamun</h3>
+            <p>Soft, syrup-soaked milk dumplings</p>
+          </div>
+          <div class="menu-card">
+            <div class="menu-icon">🍦</div>
+            <h3>Kulfi</h3>
+            <p>Dense Indian ice cream, pistachio & rose</p>
+          </div>
+          <div class="menu-card">
+            <div class="menu-icon">🌟</div>
+            <h3>Creative Sweets</h3>
+            <p>Rotating seasonal Indian mithai selection</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ ABOUT PAGE ═══════════ -->
+  <div id="page-about" class="section-page">
+    <div class="page-section">
+      <p class="section-label">Our Story</p>
+      <h2 class="section-title">About Panchgaon</h2>
+
+      <div class="about-inner">
+        <div class="about-text">
+          <p class="tagline">"Arrive. Indulge. Rediscover."</p>
+          <p>Panchgaon Restaurant is perched in the foothills of the Aravali Ranges — one of the most unique areas, named after a cluster of five villages in District Manesar.</p>
+          <p>We welcome each guest with open arms to experience a truly unique highway dining experience. High-quality food, efficient and friendly service, luxurious facilities, magical ambience, and very affordable prices — all while being deeply rooted in true Indian ethos and age-old desi traditions.</p>
+          <p>The fine balance between contemporary settings and old traditions will dazzle you, as you go on a journey to discover Panchgaon — and in turn discover your own "desi"-ness.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-box"><div class="stat-num">5</div><div class="stat-label">Villages (Origin)</div></div>
+          <div class="stat-box"><div class="stat-num">24/7</div><div class="stat-label">Open Round the Clock</div></div>
+          <div class="stat-box"><div class="stat-num">Aravali</div><div class="stat-label">Foothills Location</div></div>
+          <div class="stat-box"><div class="stat-num">100%</div><div class="stat-label">Proudly Desi</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ CONTACT PAGE ═══════════ -->
+  <div id="page-contact" class="section-page">
+    <div class="page-section">
+      <p class="section-label">Reservations & Contact</p>
+      <h2 class="section-title">Find us or book a table</h2>
+
+      <div class="contact-grid">
+        <div class="contact-form">
+          <div class="form-group">
+            <label for="f-name">Full Name</label>
+            <input type="text" id="f-name" placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label for="f-email">Email</label>
+            <input type="email" id="f-email" placeholder="you@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="f-guests">Guests</label>
+            <select id="f-guests">
+              <option>1 guest</option>
+              <option>2 guests</option>
+              <option>4 guests</option>
+              <option>6+ guests</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="f-msg">Message / Special Request</label>
+            <textarea id="f-msg" placeholder="Any dietary notes or occasion details..."></textarea>
+          </div>
+          <button class="btn-primary btn-full" onclick="submitForm()">Book Now</button>
+          <div class="toast" id="toast"></div>
+        </div>
+
+        <div class="contact-info">
+          <div class="info-row">
+            <span class="info-icon">📍</span>
+            <div>
+              <div class="info-label">Address</div>
+              <div class="info-val">Manesar, Kukrola<br>Haryana 122413</div>
+            </div>
+          </div>
+          <div class="info-row">
+            <span class="info-icon">📞</span>
+            <div>
+              <div class="info-label">Phone / WhatsApp</div>
+              <div class="info-val">+91 81300 22813</div>
+            </div>
+          </div>
+          <div class="info-row">
+            <span class="info-icon">✉️</span>
+            <div>
+              <div class="info-label">Email</div>
+              <div class="info-val">contact@panchgaon.com</div>
+            </div>
+          </div>
+          <div class="info-row">
+            <span class="info-icon">🕐</span>
+            <div>
+              <div class="info-label">Hours</div>
+              <div class="info-val">Open 24 hours, 7 days a week</div>
+            </div>
+          </div>
+          <div class="social-row">
+            <a class="social-btn" href="https://www.facebook.com/PanchgaonRestaurant" target="_blank">Facebook</a>
+            <a class="social-btn" href="https://www.instagram.com/panchgaonrestaurant/" target="_blank">Instagram</a>
+            <a class="social-btn" href="https://api.whatsapp.com/send?phone=+918130022813" target="_blank">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© Panchgaon 2026. All rights reserved.</p>
+    <p>Manesar, Kukrola, Haryana</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
